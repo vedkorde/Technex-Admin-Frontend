@@ -280,3 +280,47 @@ footer{margin-top:30px;padding:18px 0;color:#6a7790;font-size:11px;display:flex;
 .count,.filter-label,.bar-info strong,.link-button,a{color:#7aa2ff}
 .bar-track>div{background:linear-gradient(90deg,#3f5fdc,#8fb0ff);box-shadow:0 0 12px rgba(91,140,255,.45)}
 .trend-col>div{background:linear-gradient(180deg,#8fb0ff,#2c46b0)}
+
+/* ==========================================
+   TECHNEX LOGO SIZE ENHANCEMENT
+   ========================================== */
+
+/* Dashboard sidebar logo */
+.side-brand .logo-img {
+  width: 235px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Login page logo - larger and prominent */
+.login-aside .logo-login {
+  width: 340px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Responsive logo adjustments */
+@media (max-width: 768px) {
+  .side-brand .logo-img {
+    width: 205px;
+  }
+
+  .login-aside .logo-login {
+    width: 270px;
+  }
+}
+
+@media (max-width: 480px) {
+  .side-brand .logo-img {
+    width: 190px;
+  }
+
+  .login-aside .logo-login {
+    width: 235px;
+  }
+}
